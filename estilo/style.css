@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    font-family: Roboto, sans-serif; 
+}
+body{
+    width: 960px;
+    margin: auto;
+    text-align: justify;
+    background-color: orangered ;
+
+
+}
+main{
+    background-color: white;
+    /* margin: 20px; */
+    padding: 20px;
+
+}
+h1 {
+    font-family: Roboto;
+    font-size:60px; 
+    color: rgb(0, 0, 255)
+}
+h2{
+    font-size: 40px;
+    }
+p {
+    color: rgb(104, 104, 104);
+   
+}
