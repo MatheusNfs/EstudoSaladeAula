@@ -4,14 +4,35 @@
     box-sizing: border-box;
     font-family: Roboto, sans-serif; 
 }
+/*header{
+    background-color: blue;
+    padding: 30px 30px 30px 5px;
+}
+header h1{
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
+header ul{
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+}
+header li{
+    padding: 10px 10px 0 10px;
+    margin: 0 30px 0 30px;
+    display: inline;
+    background-color:blue;
+}
+*/
 :root{
     --cor-de-fundo: rgb(231, 134, 76);
     --cor-secundaria: white;
 }
 body{
-    width: 960px;
+    font-family: Roboto, sans-serif;
+    width: 1024px;
     margin: auto;
-    text-align: justify;
     background-color: var(--cor-de-fundo) ;
 
 
@@ -20,35 +41,75 @@ main{
     background-color:var(--cor-secundaria);
     /* margin: 20px; */
     padding: 20px;
-    float: left;
-    width: 85%;
-
-
+    position: relative;
+    text-align: justify;
 }
-h1 {
-    font-family: Roboto;
-    font-size:60px; 
-    color: rgb(0, 0, 255)
+blockquote{
+    padding: 10px;
+    float: left;
+    width: 30%;
+    background-color: rgb(206,202,202);
+    border: 10px solid #7a7a7a;
+    display: block;
+    margin: 0 5%;
+}
+cite{
+    display: auto;
+    margin: 15px 5px 3px 0;
+    line-height: 20px;
+    text-align: right;
+}
+.divisaoColuna{
+    float: left;
+    width: 40%;
 }
 h2{
     font-size: 40px;
 }
-ul{
-    border: 10px solid black;
+figure{
+    width: 19.3%;
+    position: absolute;
+    top:20px;
+    right: 30px;
+    
 }
+aside, figure{
+    background-color: #7a7a7a;
+    color: var(--cor-secundaria);
+    float: right;
+    border:5px solid black;
+}
+aside{
+    width: 18%;
+    margin: auto;
+    position: relative;
+    top: 20px;
+    right: 20px;
+    background-color: var(--cor-secundaria);
+    
+}
+
 li{
     list-style-type: none;
     display: block;
-    padding: 10px;
-    background-color: rgb(0, 0, 255);
-    text-align: center;
-   
+    /*padding: 10px;*/
+    background-color: rgb(0, 0, 255);   
 }
 li a {
+    display: block;
     color: white;
-    padding: 10px 20px 10px 20px;
+    padding: 10px;
     line-height: 10px;
-
+    text-decoration: none;
+    text-transform: bold;
+    text-align: center;
+    
+}
+nav li a:hover{
+    display: block;
+    background-color: var(--cor-de-fundo);
+    text-transform: bold;
+    transition: .3s;
 }
 footer{
     background-color: rgb(0,0,0);
@@ -57,17 +118,22 @@ footer{
     line-height: 50px;
     clear: both;
 }
-img{
-    border: 10px solid black;
-}
-aside{
-    float: right;
-    width: 15%;
-    
-}
-aside h1{
-    color: black;
-    font-size: 18px;
-    background-color: var(--cor-secundaria);
 
+
+.vermelho{
+    color: red;
+}
+.nomeCliente{
+    font-size: 18px;
+    display: block;
+    text-align: center;
+}
+.diferenciado{
+    font-size: 60px;
+    margin: 0;
+    text-transform: uppercase;
+    color:blue;
+}
+.limpaFloat{
+    clear: both;
 }
