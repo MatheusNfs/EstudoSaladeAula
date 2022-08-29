@@ -137,3 +137,6 @@ footer{
 .limpaFloat{
     clear: both;
 }
+.reducText{
+    width: 75%;
+}
