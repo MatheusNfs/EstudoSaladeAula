@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serifa, Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+    height: 300vh;
+    margin-top: 50px;
+}
+h1{
+    position: fixed;
+    top: 10px;
+}
+h2{
+    margin-top:100px;
+}
+
+.father{
+    width: 400px;
+    height: 400px;
+    background-color: purple;
+    position: absolute;
+    right: 0px;
+
+}
+.son{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;   
+
+}
