@@ -56,6 +56,25 @@ input[type=text]{
     text-indent: 20px;
    
  }
+#figureheader{
+    background-color: var(--cor-de-fundo);
+    border-style: none;
+}
+ 
+#carrinho{
+    position: absolute;
+    left: 20px;
+    top: 0;
+    background-color: transparent;
+    border: none;
+}
+#cliente{
+    position: absolute;
+    right: 5px;
+    top: 0s;
+    background-color: transparent;
+    border: none;
+}
     
 header nav{
     position: absolute;
