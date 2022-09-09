@@ -42,9 +42,16 @@ h2{
     color: white;
     padding: 10px;
 }
+img{
+    filter: grayscale(100%);
+}
 .imgLeft{
     float: left;
     margin-right: 10px;
+}
+.imgRight{
+    float: right;
+    margin-left: 10px;
 }
 p{
     line-height: 20px;
@@ -59,4 +66,24 @@ footer{
     height: 40px;
     background-color: #999;
     margin-top: 10px;
+}
+input{
+    width: 250px;
+    border: none;
+    background-color: #cccccc;
+}
+textarea{
+    width: 300px;
+    height: 100px ;
+    border: none;
+    background-color: #cccccc;
+    resize: none;
+
+}
+input[type=submit]{
+    width: 90px;
+    background-color: #333;
+    color: white;
+    border: none;
+
 }
