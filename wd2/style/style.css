@@ -47,4 +47,7 @@ h2{
     font-weight: normal;
     color: #fff;
     padding-left: 10px;
+    background-image: url(../img/gradiente.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
