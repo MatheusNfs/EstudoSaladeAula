@@ -69,16 +69,17 @@ footer{
 }
 input{
     width: 250px;
-    border: none;
     background-color: #cccccc;
+    border-radius: 10px;
+    border: 3px #333333 solid;
 }
 textarea{
     width: 300px;
     height: 100px ;
-    border: none;
     background-color: #cccccc;
     resize: none;
-
+    border-radius: 20px;
+    border: 3px #333 solid;
 }
 input[type=submit]{
     width: 90px;
