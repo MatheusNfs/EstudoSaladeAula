@@ -1,3 +1,20 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+main{
+    width: 960px;
+}
+H2{
+    color: purple;
+
+}
+nav{
+    display: inline;
+    width: 960px;
+    height: 25px;
+    
+}
 #popup{
 
 }
@@ -5,12 +22,20 @@
 
 }
 #banner{
+    
 
+}
+#org{
+    display: none;
 }
 #conteudo{
 
 }
 #box1, #box2, #box3{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    text-align: justify;
 
 }
 #box1{
