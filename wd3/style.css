@@ -1,49 +1,139 @@
+:root{
+    --cortexto: #666666;
+    --cortitulo: #402c71;
+    --corsecundaria: #bcb2d6;
+
+
+}
 *{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
+}
+body{
+    font-family: 'Trebuchet MS';
 }
 main{
     width: 960px;
+    margin: auto;
+    height: auto;
 }
-H2{
-    color: purple;
+#logo{
+    width: 144px;
+    height: 182px;
+    float: left;
+    position: relative;
+    top: 0%;
+    left: 0;
+    z-index: 4;
 
 }
-nav{
-    display: inline;
+h2{
+    color: var(--cortitulo);
+    font-size: 20px;
+    margin-bottom: 0;
+}
+p{
+    color: var(--cortexto);
+    font-size: 14px;
+    line-height: 120%;
+    margin-top: 10px;
+}
+img{
+    border:none;
+}
+#imgleft{
+    float: left;
+    margin: 0;
+
+}
+header{
     width: 960px;
-    height: 25px;
-    
+    height: 35px;
+    float: left;
+    background-color:var(--cortitulo);
+}
+nav{
+    float: right;
+    line-height: 35px;
+    position: relative;
+    z-index: 10;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin-right: 50px;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.titulo{
+    color: var(--cortitulo);
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
 }
 #popup{
 
 }
 #caixa{
-
+    display: none;
+    width: 200px;
+    height: 10px;
+    background-color: var(--cortitulo);
+    position: absolute;
+    top: 35px;
+    left: 90px;
+    z-index: 20;
+}
+#caixa a{
+    display: block;
+    margin: 0;
 }
 #banner{
-    
+    margin: 0px;
+    width: 960px;
+    height: 300px;
+    float: left;
+    border-bottom: 1px solid #bba6e7;
 
-}
-#org{
-    display: none;
 }
 #conteudo{
+    width:960px;
+    min-height: 100px;
+    float: left;
+    margin-top: 20px;
+
 
 }
-#box1, #box2, #box3{
+/* #box1, #box2, #box3{
     display: inline-block;
     height: 300px;
-    width: 300px;
+    max-width: 290px;
     text-align: justify;
+    margin: 0 13px;
 
-}
-#box1{
+} */
+#box1, #box2, #box3{
+    min-height: 100px;
+    width: 280px;
+    float: left;
+    text-align: justify;
+    margin-bottom: 40px;
 
 }
 #box2{
-
+    margin-left: 60px;
+    margin-right: 60px;
+   
 }
-#box3{
 
+footer{
+    clear: both;
+    background-color: var(--corsecundaria);
+    color: var(--cortitulo);
+    text-align: center;
+    height: 35px;
+    width: 960px;
+    font-size: 12px;
+    line-height: 35px;
 }

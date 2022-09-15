@@ -6,6 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <title>Bella Estética</title>
+    <script type="text/javascript">
+        $(window).load(function(){
+            $("#quemsomos").click(function(){
+                console.log("cliquei!")
+            }
+            );
+        });
+    </script>
 </head>
 <body>
     <div id="popup">
@@ -13,14 +21,14 @@
     </div>
     <main>
         <header>
-            <figure>
+            <figure id="logo">
                 <a href="index.html">
                     <img src="img/logo.png" alt="logotipo">
                 </a>
             </figure>
             <nav>
                 <a href="#">Home</a>
-                <a href="#">Quem Somos</a>
+                <a href="#" id="quemsomos">Quem Somos</a>
                 <a href="#">Serviços</a>
                 <a href="#">Localização</a>
                 <a href="#">Contato</a>
@@ -30,15 +38,17 @@
                     <a href="#">Visão</a>
                 </div>
         </header>
-        <figure >
-            <img id="org" src="img/banner.jpg" alt="banner do site">
-            <img id="org" src="img/banner2.jpg" alt="banner do site">
-            <img src="img/banner3.jpg" alt="banner do site">
+        <figure id="banner" >
+            <!-- <img src="img/banner.jpg" alt="banner do site"> -->
+            <img src="img/banner2.jpg" alt="banner do site">
+            <!-- <img src="img/banner3.jpg" alt="banner do site"> -->
         </figure>
         <aside id="conteudo">
-            <figure><img src="img/imgconteudo.jpg" alt="Imagem Mulher"></figure>
-            <h1>
-                "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia repudiandae perspiciatis laudantium quod harum iste ea debitis quia eos, ut rem cupiditate voluptatum atque eum sapiente porro officiis sint labore."
+            <figure id="imgleft">
+                <img src="img/imgconteudo.jpg" alt="Imagem Mulher">
+            </figure>
+            <h1 class="titulo">
+                "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia repudiandae perspiciatis laudantium quod harum iste ea debitis quia eos, ut rem cu!"
             </h1>
         </aside>
         <section id="box1">
