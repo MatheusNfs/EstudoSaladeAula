@@ -55,6 +55,9 @@ header{
 #menu a:hover{
     text-decoration: underline;
 }
+#menuMobile{
+    display: none;
+}
 #banner{
     width: 100%;
     height: auto;
@@ -62,6 +65,16 @@ header{
 }
 #banner img{
     width: 100%;    
+}
+.anuncioTablet{
+    width: 100%;
+    height: auto;
+    float: left;
+    background-color: #f60;
+    text-align: center;
+    color: white;
+    padding: 5px 0;
+    display: none;                            
 }
 #conteudo{
     width: 60%;
@@ -82,4 +95,50 @@ footer{
     font-size: 14px;
     line-height: 30px;
     text-align: center;
+}
+/* <<Layout responsivo - Media Query>> */
+
+@media screen and (min-width:641px) and (max-width:768px){/*tablet na vertical*/
+    .anuncioTablet{
+        display: block;
+    }
+}
+@media screen and (max-width:480px){/*smart na horizontal*/
+    nav#menu a{
+        margin: 0 10px;
+    }
+    article#conteudo, aside#coluna{
+        width: 100%;
+    }
+    section#logo{
+        width: 180px;
+        height: auto;
+    }
+    section#logo img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:400px){/*smart na horizontal*/
+    nav#menu{
+        height: auto;
+        line-height: 30px;
+        display: none;
+    }
+    nav#menu a{
+        display: block;
+        border-bottom: 1px solid #fff;
+    }
+    nav#menu a:last-child{
+        border: none;
+    }
+    nav#menuMobile{
+        width: 100%;
+        display: block;
+
+    }
+    nav#menuMobile select{
+        width: 100%;
+        background-color: #333333;
+        color: #fff;
+    }
 }
