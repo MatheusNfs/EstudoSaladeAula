@@ -25,6 +25,10 @@ nav ul ul{
     position: relative;
     left: 0px;    
 }
+nav ul ul a{
+    width: 100%;
+}
+
 nav ul ul li{
     background-color: var(--cordefundo);
 
